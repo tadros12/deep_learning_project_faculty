@@ -1,0 +1,25 @@
+# --- 1. Big Data & Datasets (Ignore everywhere) ---
+data/
+*.csv
+*.mat
+*.zip
+*.rar
+*.xls
+*.xlsx
+
+# --- 2. Model Weights (Ignore massive files everywhere) ---
+*.keras
+*.h5
+*.hdf5
+*.weights
+models/saved_models/
+
+# --- 3. Logs & Graphs ---
+logs/
+notebooks/logs/
+*.log
+
+# --- 4. Python & Jupyter Trash ---
+__pycache__/
+*.ipynb_checkpoints/
+.vscode/
